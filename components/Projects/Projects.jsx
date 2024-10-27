@@ -1,13 +1,13 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../src/Assets/Projects/leaf.png";
-import emotion from "../../src/Assets/Projects/emotion.png";
-import editor from "../../src/Assets/Projects/codeEditor.png";
-import chatify from "../../src/Assets/Projects/chatify.png";
-import suicide from "../../src/Assets/Projects/suicide.png";
-import bitsOfCode from "../../src/Assets/Projects/blog.png";
+import Book from "../../src/Assets/Projects/Book.png";
+import Editor from "../../src/Assets/Projects/Editor.png";
+import Kasper from "../../src/Assets/Projects/Kasper.png";
+import Amazon from "../../src/Assets/Projects/Amazon.png";
+import Edubridge from "../../src/Assets/Projects/Edubridge.png";
+import Ai from "../../src/Assets/Projects/Ai.png";
+import Education from "../../src/Assets/Projects/Education.png";
 
 function Projects() {
   return (
@@ -23,70 +23,79 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Edubridge}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="EduBridge"
+              description="This Website is for a UK registered organisation working in the education sector, and is built using ReactJS and we have recently added NextJS."
+              demoLink="https://www.edu-bridge.org.uk/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={Education}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Education Platform"
+              description="This website is an educational platform with many features built using ReactJS."
+              ghLink="https://github.com/Maha-Rabah/Task4"
+              demoLink="https://maha-rabah.github.io/Task4/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={Amazon}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Amazon"
+              description="E-commerce to display and buy products, built using ReactJS, Firebase, Striple "
+              ghLink=""
+              demoLink=""              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={Book}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Books Store"
+              description="This website To display and Sell The Books, Built using Reactjs, Tailwind, TypeScript and with a Real Api"
+              ghLink="https://github.com/mohamed-arab1/books-commerce-client"
+              demoLink=""
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={Ai}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="Ai Project"
+              description="This website about ai Like a chatgpt, built with React, Bootstrap"
+              ghLink="https://github.com/Maha-Rabah/Ai-Project"
+              demoLink="https://abdullah-alashek.github.io/AI_Project-master/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={Editor}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Text Editor"
+              description="It is like a Microsoft office WORD, it built by using html, css, Js"
+              ghLink="https://github.com/Maha-Rabah/Test_Editor"
             />
           </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Kasper}
+              isBlog={false}
+              title="KASPER"
+              description="This Website built for training and using animation, it built by using html, css"
+              ghLink="https://github.com/Maha-Rabah/Kasper"
+            />
+          </Col>
+
+      
         </Row>
       </Container>
     </Container>
