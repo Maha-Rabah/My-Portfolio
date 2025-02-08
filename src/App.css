@@ -36,3 +36,7 @@
     transform: rotate(360deg);
   }
 }
+
+.mainsection{
+        /* Transform: skew(5deg,5deg) */
+      }

@@ -75,7 +75,7 @@ function Projects() {
             />
           </Col>
 
-          <Col md={4} className="project-card">
+          {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={Editor}
               isBlog={false}
@@ -83,7 +83,7 @@ function Projects() {
               description="It is like a Microsoft office WORD, it built by using html, css, Js"
               ghLink="https://github.com/Maha-Rabah/Test_Editor"
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard

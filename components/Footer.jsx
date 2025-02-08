@@ -39,7 +39,7 @@ function Footer() {
                 <FaFacebook />
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href=""
                 style={{ color: "white" }}
@@ -48,7 +48,7 @@ function Footer() {
               >
                 <FaLinkedinIn />
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
                 href="https://www.instagram.com/maharabah13/profilecard/?igsh=MXhiN2FmYmphM3g3Mg=="
